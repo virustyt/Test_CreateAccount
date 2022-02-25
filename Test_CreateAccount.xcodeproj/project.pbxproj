@@ -7,23 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		846AEE2727C9349500D4356D /* TextFieldsTags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846AEE2627C9349500D4356D /* TextFieldsTags.swift */; };
+		846AEE2B27C962A400D4356D /* String+containsOnlyOneWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846AEE2A27C962A400D4356D /* String+containsOnlyOneWord.swift */; };
+		846AEE2D27C962D000D4356D /* String+containsOnlyOneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846AEE2C27C962D000D4356D /* String+containsOnlyOneNumber.swift */; };
 		849F4B9927C54A8C00510E84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849F4B9827C54A8C00510E84 /* AppDelegate.swift */; };
-		849F4B9B27C54A8C00510E84 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849F4B9A27C54A8C00510E84 /* SceneDelegate.swift */; };
-		849F4B9D27C54A8C00510E84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849F4B9C27C54A8C00510E84 /* ViewController.swift */; };
-		849F4BA027C54A8C00510E84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849F4B9E27C54A8C00510E84 /* Main.storyboard */; };
 		849F4BA227C54A9900510E84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849F4BA127C54A9900510E84 /* Assets.xcassets */; };
 		849F4BA527C54A9900510E84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849F4BA327C54A9900510E84 /* LaunchScreen.storyboard */; };
+		84CF2A4027C54E8A008FF11C /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CF2A3F27C54E8A008FF11C /* CreateAccountViewController.swift */; };
+		84CF2A4327C54EBB008FF11C /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CF2A4227C54EBB008FF11C /* BaseViewController.swift */; };
+		84CF2A4827C553D8008FF11C /* PatrickHand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84CF2A4727C553D8008FF11C /* PatrickHand-Regular.ttf */; };
+		84CF2A4A27C555E9008FF11C /* ClearAccountsDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CF2A4927C555E9008FF11C /* ClearAccountsDataView.swift */; };
+		84CF2A4E27C5569A008FF11C /* Consts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CF2A4D27C5569A008FF11C /* Consts.swift */; };
+		84CF2A5227C55DE6008FF11C /* UILabel+titleOneLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CF2A5127C55DE6008FF11C /* UILabel+titleOneLabel.swift */; };
+		84CF2A5427C55E06008FF11C /* UILabel+titleTwoLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CF2A5327C55E06008FF11C /* UILabel+titleTwoLabel.swift */; };
+		84CF2A5627C55FF5008FF11C /* CreateAccountContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CF2A5527C55FF5008FF11C /* CreateAccountContainerView.swift */; };
+		84CF2A5C27C56971008FF11C /* UIStackView+forAccountInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CF2A5B27C56971008FF11C /* UIStackView+forAccountInfo.swift */; };
+		84CF2A5E27C57739008FF11C /* UserInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CF2A5D27C57739008FF11C /* UserInfoCell.swift */; };
+		84CF2A6027C57837008FF11C /* ChildInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CF2A5F27C57837008FF11C /* ChildInfoCell.swift */; };
+		84CF2A6227C6C1C9008FF11C /* AddChildButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CF2A6127C6C1C9008FF11C /* AddChildButtonCell.swift */; };
+		84CF2A6527C77252008FF11C /* UserPerasonalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CF2A6427C77252008FF11C /* UserPerasonalData.swift */; };
+		84CF2A6727C77304008FF11C /* ChildPersonalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CF2A6627C77304008FF11C /* ChildPersonalData.swift */; };
+		84CF2A6927C7C3A0008FF11C /* PersonalInfoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CF2A6827C7C3A0008FF11C /* PersonalInfoTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		846AEE2627C9349500D4356D /* TextFieldsTags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldsTags.swift; sourceTree = "<group>"; };
+		846AEE2A27C962A400D4356D /* String+containsOnlyOneWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+containsOnlyOneWord.swift"; sourceTree = "<group>"; };
+		846AEE2C27C962D000D4356D /* String+containsOnlyOneNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+containsOnlyOneNumber.swift"; sourceTree = "<group>"; };
 		849F4B9527C54A8C00510E84 /* Test_CreateAccount.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test_CreateAccount.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		849F4B9827C54A8C00510E84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		849F4B9A27C54A8C00510E84 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		849F4B9C27C54A8C00510E84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		849F4B9F27C54A8C00510E84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		849F4BA127C54A9900510E84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		849F4BA427C54A9900510E84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		849F4BA627C54A9900510E84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84CF2A3F27C54E8A008FF11C /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		84CF2A4227C54EBB008FF11C /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		84CF2A4727C553D8008FF11C /* PatrickHand-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PatrickHand-Regular.ttf"; sourceTree = "<group>"; };
+		84CF2A4927C555E9008FF11C /* ClearAccountsDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearAccountsDataView.swift; sourceTree = "<group>"; };
+		84CF2A4D27C5569A008FF11C /* Consts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Consts.swift; sourceTree = "<group>"; };
+		84CF2A5127C55DE6008FF11C /* UILabel+titleOneLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+titleOneLabel.swift"; sourceTree = "<group>"; };
+		84CF2A5327C55E06008FF11C /* UILabel+titleTwoLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+titleTwoLabel.swift"; sourceTree = "<group>"; };
+		84CF2A5527C55FF5008FF11C /* CreateAccountContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountContainerView.swift; sourceTree = "<group>"; };
+		84CF2A5B27C56971008FF11C /* UIStackView+forAccountInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+forAccountInfo.swift"; sourceTree = "<group>"; };
+		84CF2A5D27C57739008FF11C /* UserInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoCell.swift; sourceTree = "<group>"; };
+		84CF2A5F27C57837008FF11C /* ChildInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildInfoCell.swift; sourceTree = "<group>"; };
+		84CF2A6127C6C1C9008FF11C /* AddChildButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChildButtonCell.swift; sourceTree = "<group>"; };
+		84CF2A6427C77252008FF11C /* UserPerasonalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPerasonalData.swift; sourceTree = "<group>"; };
+		84CF2A6627C77304008FF11C /* ChildPersonalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildPersonalData.swift; sourceTree = "<group>"; };
+		84CF2A6827C7C3A0008FF11C /* PersonalInfoTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInfoTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +67,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		846AEE2927C9628A00D4356D /* String */ = {
+			isa = PBXGroup;
+			children = (
+				846AEE2A27C962A400D4356D /* String+containsOnlyOneWord.swift */,
+				846AEE2C27C962D000D4356D /* String+containsOnlyOneNumber.swift */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
 		849F4B8C27C54A8C00510E84 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +95,117 @@
 		849F4B9727C54A8C00510E84 /* Test_CreateAccount */ = {
 			isa = PBXGroup;
 			children = (
+				84CF2A6327C77230008FF11C /* Models */,
+				84CF2A4F27C55DA2008FF11C /* Extensions */,
+				84CF2A4527C553C2008FF11C /* Resources */,
+				84CF2A4127C54E9D008FF11C /* Utilits */,
+				849F4BAD27C54AB200510E84 /* Support */,
+				849F4BAC27C54AA500510E84 /* Screens */,
+			);
+			path = Test_CreateAccount;
+			sourceTree = "<group>";
+		};
+		849F4BAC27C54AA500510E84 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				84CF2A4427C54F47008FF11C /* CreateAccountVC */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		849F4BAD27C54AB200510E84 /* Support */ = {
+			isa = PBXGroup;
+			children = (
 				849F4B9827C54A8C00510E84 /* AppDelegate.swift */,
-				849F4B9A27C54A8C00510E84 /* SceneDelegate.swift */,
-				849F4B9C27C54A8C00510E84 /* ViewController.swift */,
-				849F4B9E27C54A8C00510E84 /* Main.storyboard */,
 				849F4BA127C54A9900510E84 /* Assets.xcassets */,
 				849F4BA327C54A9900510E84 /* LaunchScreen.storyboard */,
 				849F4BA627C54A9900510E84 /* Info.plist */,
 			);
-			path = Test_CreateAccount;
+			path = Support;
+			sourceTree = "<group>";
+		};
+		84CF2A4127C54E9D008FF11C /* Utilits */ = {
+			isa = PBXGroup;
+			children = (
+				84CF2A4227C54EBB008FF11C /* BaseViewController.swift */,
+				84CF2A4D27C5569A008FF11C /* Consts.swift */,
+				846AEE2627C9349500D4356D /* TextFieldsTags.swift */,
+			);
+			path = Utilits;
+			sourceTree = "<group>";
+		};
+		84CF2A4427C54F47008FF11C /* CreateAccountVC */ = {
+			isa = PBXGroup;
+			children = (
+				84CF2A4B27C555ED008FF11C /* Views */,
+				84CF2A3F27C54E8A008FF11C /* CreateAccountViewController.swift */,
+			);
+			path = CreateAccountVC;
+			sourceTree = "<group>";
+		};
+		84CF2A4527C553C2008FF11C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				84CF2A4627C553CA008FF11C /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		84CF2A4627C553CA008FF11C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				84CF2A4727C553D8008FF11C /* PatrickHand-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		84CF2A4B27C555ED008FF11C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				84CF2A4927C555E9008FF11C /* ClearAccountsDataView.swift */,
+				84CF2A5527C55FF5008FF11C /* CreateAccountContainerView.swift */,
+				84CF2A5D27C57739008FF11C /* UserInfoCell.swift */,
+				84CF2A5F27C57837008FF11C /* ChildInfoCell.swift */,
+				84CF2A6127C6C1C9008FF11C /* AddChildButtonCell.swift */,
+				84CF2A6827C7C3A0008FF11C /* PersonalInfoTextField.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		84CF2A4F27C55DA2008FF11C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				846AEE2927C9628A00D4356D /* String */,
+				84CF2A5A27C56932008FF11C /* UIStackView */,
+				84CF2A5027C55DAA008FF11C /* UILabel */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		84CF2A5027C55DAA008FF11C /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				84CF2A5127C55DE6008FF11C /* UILabel+titleOneLabel.swift */,
+				84CF2A5327C55E06008FF11C /* UILabel+titleTwoLabel.swift */,
+			);
+			path = UILabel;
+			sourceTree = "<group>";
+		};
+		84CF2A5A27C56932008FF11C /* UIStackView */ = {
+			isa = PBXGroup;
+			children = (
+				84CF2A5B27C56971008FF11C /* UIStackView+forAccountInfo.swift */,
+			);
+			path = UIStackView;
+			sourceTree = "<group>";
+		};
+		84CF2A6327C77230008FF11C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84CF2A6427C77252008FF11C /* UserPerasonalData.swift */,
+				84CF2A6627C77304008FF11C /* ChildPersonalData.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +267,7 @@
 			files = (
 				849F4BA527C54A9900510E84 /* LaunchScreen.storyboard in Resources */,
 				849F4BA227C54A9900510E84 /* Assets.xcassets in Resources */,
-				849F4BA027C54A8C00510E84 /* Main.storyboard in Resources */,
+				84CF2A4827C553D8008FF11C /* PatrickHand-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +278,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				849F4B9D27C54A8C00510E84 /* ViewController.swift in Sources */,
+				84CF2A6027C57837008FF11C /* ChildInfoCell.swift in Sources */,
+				84CF2A4A27C555E9008FF11C /* ClearAccountsDataView.swift in Sources */,
+				84CF2A4E27C5569A008FF11C /* Consts.swift in Sources */,
+				84CF2A6527C77252008FF11C /* UserPerasonalData.swift in Sources */,
+				84CF2A6727C77304008FF11C /* ChildPersonalData.swift in Sources */,
+				84CF2A6927C7C3A0008FF11C /* PersonalInfoTextField.swift in Sources */,
+				846AEE2D27C962D000D4356D /* String+containsOnlyOneNumber.swift in Sources */,
+				846AEE2B27C962A400D4356D /* String+containsOnlyOneWord.swift in Sources */,
+				84CF2A4027C54E8A008FF11C /* CreateAccountViewController.swift in Sources */,
+				846AEE2727C9349500D4356D /* TextFieldsTags.swift in Sources */,
+				84CF2A5427C55E06008FF11C /* UILabel+titleTwoLabel.swift in Sources */,
+				84CF2A4327C54EBB008FF11C /* BaseViewController.swift in Sources */,
 				849F4B9927C54A8C00510E84 /* AppDelegate.swift in Sources */,
-				849F4B9B27C54A8C00510E84 /* SceneDelegate.swift in Sources */,
+				84CF2A6227C6C1C9008FF11C /* AddChildButtonCell.swift in Sources */,
+				84CF2A5C27C56971008FF11C /* UIStackView+forAccountInfo.swift in Sources */,
+				84CF2A5627C55FF5008FF11C /* CreateAccountContainerView.swift in Sources */,
+				84CF2A5227C55DE6008FF11C /* UILabel+titleOneLabel.swift in Sources */,
+				84CF2A5E27C57739008FF11C /* UserInfoCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		849F4B9E27C54A8C00510E84 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				849F4B9F27C54A8C00510E84 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		849F4BA327C54A9900510E84 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -288,7 +436,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K4FDR4N6T3;
-				INFOPLIST_FILE = Test_CreateAccount/Info.plist;
+				INFOPLIST_FILE = Test_CreateAccount/Support/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +455,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K4FDR4N6T3;
-				INFOPLIST_FILE = Test_CreateAccount/Info.plist;
+				INFOPLIST_FILE = Test_CreateAccount/Support/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
